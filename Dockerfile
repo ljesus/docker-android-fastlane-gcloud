@@ -33,7 +33,7 @@ RUN apt-get -y install \
     openjdk-8-jdk \
     build-essential \
     google-cloud-sdk \
-    git-all
+    git
 
 ADD https://dl.google.com/android/repository/sdk-tools-linux-${VERSION_SDK_TOOLS}.zip /tools.zip
 RUN unzip /tools.zip -d $ANDROID_HOME && rm -rf /tools.zip
