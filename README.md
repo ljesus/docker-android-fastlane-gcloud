@@ -1,1 +1,1 @@
-Docker image with Android SDK, Fastlane and GCloud 
+Docker image with Android SDK, Fastlane, GCloud and Firebase CLI
